@@ -1,0 +1,37 @@
+import React from "react";
+import First from "./component/First.jsx";
+import img from "./assets/img.jfif";
+import Navbar from "./component/Navbar.jsx";
+import Eventshandling from "./topics/Eventshandling.jsx";
+import EventsProps from "./topics/EventsProps.jsx";
+import UseState from "./hooks/UseState.jsx";
+import Just_practice from "./Just_practice.jsx";
+import Card from "./props/Card.jsx";
+import Function_Practice from "./Function/Function_Practice.jsx";
+
+const App = () => {
+  return (
+    <div>
+      {/* Props draling */}
+      {/* {<Card user="abdul" message="abdul" id="342617" />}
+      {<Card user="abdur" message="seneir developer" id="398047" />}
+      {<Card user="Faiz" message="Faiz ur rehman" id="342617" />}
+      {<Card user="KoKo" message="KoKo" id="ki ka" />}
+      {<Card user="kaka" message="kaka" id="342617" />} */}
+      {/* {<Just_practice name="Faiz Ur Rehman" no="12345" batto="Batto" />}
+      {<Just_practice name="Abdul Rehman" no="67890" batto="Batto" />}
+      {<Just_practice name="KoKo" no="54321" batto="Batto" />} */}
+
+      {/* {<Function_Practice />} */}
+      {<UseState />}
+      {/* <First /> */}
+      {/* <img src={img} alt="Description" /> */}
+      {/* <First /> */}
+      {/* <Navbar /> */}
+      {/* <Eventshandling /> */}
+      {/* {<EventsProps />} Mono Lisa */}
+    </div>
+  );
+};
+
+export default App;
