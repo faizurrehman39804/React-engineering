@@ -8,6 +8,7 @@ import UseState from "./hooks/UseState.jsx";
 import Just_practice from "./Just_practice.jsx";
 import Card from "./props/Card.jsx";
 import Function_Practice from "./Function/Function_Practice.jsx";
+import Calculator from "./hooks/Calculator.jsx";
 
 const App = () => {
   return (
@@ -23,7 +24,8 @@ const App = () => {
       {<Just_practice name="KoKo" no="54321" batto="Batto" />} */}
 
       {/* {<Function_Practice />} */}
-      {<UseState />}
+      {/* {<UseState />} */}
+      {<Calculator />}
       {/* <First /> */}
       {/* <img src={img} alt="Description" /> */}
       {/* <First /> */}
