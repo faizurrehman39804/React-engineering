@@ -10,6 +10,7 @@ import Card from "./props/Card.jsx";
 import Function_Practice from "./Function/Function_Practice.jsx";
 import Calculator from "./hooks/Calculator.jsx";
 import Formpage from "./FormHandling/Formpage.jsx";
+import Form_Binding from "./FormHandling/Tow-way-Binding/Form_Binding.jsx";
 
 const App = () => {
   return (
@@ -24,6 +25,7 @@ const App = () => {
       {<Just_practice name="Abdul Rehman" no="67890" batto="Batto" />}
       {<Just_practice name="KoKo" no="54321" batto="Batto" />} */}
 
+      {<Form_Binding />}
       {<Formpage />}
       {/* {<Function_Practice />} */}
       {/* {<UseState />} */}

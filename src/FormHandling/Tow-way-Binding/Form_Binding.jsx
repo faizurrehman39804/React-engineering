@@ -1,11 +1,12 @@
 import React from "react";
 
-const Formpage = () => {
-  const [title, setTitle] = React.useState("");
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    console.log("Form submitted with name:", title);
-  };
+const [title, setTitle] = React.useState("");
+const handleSubmit = (e) => {
+  e.preventDefault();
+  console.log("Form submitted with name:", title);
+};
+
+const Form_Binding = () => {
   return (
     <div>
       <h1 className="text-5xl font-bold text-center">Form Page</h1>
@@ -28,5 +29,4 @@ const Formpage = () => {
     </div>
   );
 };
-
-export default Formpage;
+export default Form_Binding;
