@@ -17,7 +17,7 @@ const Form_Binding = () => {
         <input
           type="text"
           id="name"
-          className="border border-gray-300 p-2.5"
+          className="border border-gray-300 p-2.5" 
           value={title}
           onChange={(e) => {
             console.log(e.target.value);
