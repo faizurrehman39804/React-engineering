@@ -26,7 +26,7 @@ const App = () => {
       {<Just_practice name="KoKo" no="54321" batto="Batto" />} */}
 
       {<Form_Binding />}
-      {<Formpage />}
+      {/* {<Formpage />} */}
       {/* {<Function_Practice />} */}
       {/* {<UseState />} */}
       {/* {<Calculator />} */}
