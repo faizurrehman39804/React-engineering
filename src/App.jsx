@@ -4,14 +4,15 @@ import img from "./assets/img.jfif";
 import Navbar from "./component/Navbar.jsx";
 import Eventshandling from "./topics/Eventshandling.jsx";
 import EventsProps from "./topics/EventsProps.jsx";
-import UseState from "./hooks/UseState.jsx";
+import UseState from "./hooks/useState/UseState.jsx";
 import Just_practice from "./Just_practice.jsx";
 import Card from "./props/Card.jsx";
 import Function_Practice from "./Function/Function_Practice.jsx";
-import Calculator from "./hooks/Calculator.jsx";
+import Calculator from "./hooks/useState/Calculator.jsx";
 import Formpage from "./FormHandling/Formpage.jsx";
 import Form_Binding from "./FormHandling/Tow-way-Binding/Form_Binding.jsx";
 import LocalStorage from "./Local Storage/localStorage.jsx";
+import UseEffect from "./hooks/useEffect/useEffect.jsx";
 
 const App = () => {
   return (
@@ -26,7 +27,8 @@ const App = () => {
       {<Just_practice name="Abdul Rehman" no="67890" batto="Batto" />}
       {<Just_practice name="KoKo" no="54321" batto="Batto" />} */}
 
-      {<LocalStorage />}
+      {<UseEffect />}
+      {/* {<LocalStorage />} */}
       {/* {<Form_Binding />} */}
       {/* {<Formpage />} */}
       {/* {<Function_Practice />} */}
