@@ -43,9 +43,17 @@
 			"typeName": "pointer"
 		},
 		{
-			"x": 686.0352918172212,
-			"y": 324.27601613414083,
-			"z": 0.4552767770728901,
+			"name": "",
+			"color": "#EC5E41",
+			"imageUrl": "",
+			"meta": {},
+			"id": "user:Er5Lhd2AcXERDdmkBeLPf",
+			"typeName": "user"
+		},
+		{
+			"x": -702.2273910780277,
+			"y": 141.13032827526877,
+			"z": 2,
 			"meta": {},
 			"id": "camera:page:page",
 			"typeName": "camera"
@@ -66,10 +74,10 @@
 			"meta": {}
 		},
 		{
-			"editingShapeId": null,
+			"editingShapeId": "shape:JtGfJWsedZbhQR3s72gOU",
 			"croppingShapeId": null,
 			"selectedShapeIds": [
-				"shape:Fo-6pNDs7VUFMrmV3EeYO"
+				"shape:JtGfJWsedZbhQR3s72gOU"
 			],
 			"hoveredShapeId": null,
 			"erasingShapeIds": [],
@@ -158,11 +166,11 @@
 			"id": "shape:JtGfJWsedZbhQR3s72gOU",
 			"type": "geo",
 			"props": {
-				"w": 571.0811820264969,
+				"w": 572,
 				"h": 99.28026032613923,
 				"geo": "rectangle",
 				"dash": "draw",
-				"growY": 0,
+				"growY": 82.71973967386077,
 				"url": "",
 				"scale": 1,
 				"flipX": false,
@@ -203,6 +211,30 @@
 									"text": "and green is useEffect"
 								}
 							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "—> side by side run "
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "react ka kame apna ghagha per run hogha orr usestate oss ka side by side hogha run "
+								}
+							]
 						}
 					]
 				}
@@ -228,13 +260,11 @@
 		{
 			"followingUserId": null,
 			"opacityForNextShape": 1,
-			"stylesForNextShape": {
-				"tldraw:geo": "rectangle"
-			},
+			"stylesForNextShape": {},
 			"brush": null,
 			"scribbles": [],
 			"cursor": {
-				"type": "grabbing",
+				"type": "default",
 				"rotation": 0
 			},
 			"isFocusMode": false,
@@ -244,8 +274,8 @@
 			"screenBounds": {
 				"x": 0,
 				"y": 0,
-				"w": 1230.4000244140625,
-				"h": 534.4000244140625
+				"w": 1290,
+				"h": 813.6000366210938
 			},
 			"insets": [
 				false,
@@ -260,7 +290,7 @@
 			"isChatting": false,
 			"highlightedUserIds": [],
 			"isFocused": true,
-			"devicePixelRatio": 1.25,
+			"devicePixelRatio": 0.8333333134651184,
 			"isCoarsePointer": false,
 			"isHoveringCanvas": true,
 			"openMenus": [],
