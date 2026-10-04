@@ -51,9 +51,9 @@
 			"typeName": "user"
 		},
 		{
-			"x": -702.2273910780277,
-			"y": 141.13032827526877,
-			"z": 2,
+			"x": 38.11763824308755,
+			"y": 336.57382330908865,
+			"z": 0.8183040482771435,
 			"meta": {},
 			"id": "camera:page:page",
 			"typeName": "camera"
@@ -74,10 +74,10 @@
 			"meta": {}
 		},
 		{
-			"editingShapeId": "shape:JtGfJWsedZbhQR3s72gOU",
+			"editingShapeId": null,
 			"croppingShapeId": null,
 			"selectedShapeIds": [
-				"shape:JtGfJWsedZbhQR3s72gOU"
+				"shape:Fo-6pNDs7VUFMrmV3EeYO"
 			],
 			"hoveredShapeId": null,
 			"erasingShapeIds": [],
@@ -89,8 +89,26 @@
 			"typeName": "instance_page_state"
 		},
 		{
-			"x": 512.3566844415259,
-			"y": 156.31076990508603,
+			"meta": {},
+			"id": "binding:6kxtaLd1JF2NkPUEo1LZJ",
+			"type": "arrow",
+			"fromId": "shape:Fo-6pNDs7VUFMrmV3EeYO",
+			"toId": "shape:JtGfJWsedZbhQR3s72gOU",
+			"props": {
+				"isPrecise": true,
+				"isExact": false,
+				"normalizedAnchor": {
+					"x": 0.3139673430699697,
+					"y": 0.9639367241667494
+				},
+				"snap": "none",
+				"terminal": "end"
+			},
+			"typeName": "binding"
+		},
+		{
+			"x": 481.0724244222922,
+			"y": 189.0614551387368,
 			"rotation": 0,
 			"isLocked": false,
 			"opacity": 1,
@@ -129,12 +147,12 @@
 				"scale": 1
 			},
 			"parentId": "page:page",
-			"index": "a1r3e",
+			"index": "a3Ggv",
 			"typeName": "shape"
 		},
 		{
-			"x": 190.78664532839366,
-			"y": -44.99490003841663,
+			"x": 157.54722627731883,
+			"y": 6.819723213253724,
 			"rotation": 0,
 			"isLocked": false,
 			"opacity": 1,
@@ -264,7 +282,7 @@
 			"brush": null,
 			"scribbles": [],
 			"cursor": {
-				"type": "default",
+				"type": "grabbing",
 				"rotation": 0
 			},
 			"isFocusMode": false,
@@ -274,8 +292,8 @@
 			"screenBounds": {
 				"x": 0,
 				"y": 0,
-				"w": 1290,
-				"h": 813.6000366210938
+				"w": 1230.4000244140625,
+				"h": 759.2000122070312
 			},
 			"insets": [
 				false,
@@ -290,7 +308,7 @@
 			"isChatting": false,
 			"highlightedUserIds": [],
 			"isFocused": true,
-			"devicePixelRatio": 0.8333333134651184,
+			"devicePixelRatio": 1.25,
 			"isCoarsePointer": false,
 			"isHoveringCanvas": true,
 			"openMenus": [],
