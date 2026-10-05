@@ -13,6 +13,10 @@ import Formpage from "./FormHandling/Formpage.jsx";
 import Form_Binding from "./FormHandling/Tow-way-Binding/Form_Binding.jsx";
 import LocalStorage from "./Local Storage/localStorage.jsx";
 import UseEffect from "./hooks/useEffect/useEffect.jsx";
+import { Route, Routes } from "react-router-dom";
+import Home from "./React-Router-DOM/pages/Home.jsx";
+import About from "./React-Router-DOM/pages/About.jsx";
+import Contact from "./React-Router-DOM/pages/Contact.jsx";
 
 const App = () => {
   return (
@@ -27,7 +31,7 @@ const App = () => {
       {<Just_practice name="Abdul Rehman" no="67890" batto="Batto" />}
       {<Just_practice name="KoKo" no="54321" batto="Batto" />} */}
 
-      {<UseEffect />}
+      {/* {<UseEffect />} */}
       {/* {<LocalStorage />} */}
       {/* {<Form_Binding />} */}
       {/* {<Formpage />} */}
@@ -40,6 +44,12 @@ const App = () => {
       {/* <Navbar /> */}
       {/* <Eventshandling /> */}
       {/* {<EventsProps />} Mono Lisa */}
+
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
     </div>
   );
 };
