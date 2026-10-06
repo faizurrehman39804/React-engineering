@@ -13,10 +13,12 @@ import Formpage from "./FormHandling/Formpage.jsx";
 import Form_Binding from "./FormHandling/Tow-way-Binding/Form_Binding.jsx";
 import LocalStorage from "./Local Storage/localStorage.jsx";
 import UseEffect from "./hooks/useEffect/useEffect.jsx";
+import NavbarRouter from "./component/NavbarRouter.jsx";
 import { Route, Routes } from "react-router-dom";
 import Home from "./React-Router-DOM/pages/Home.jsx";
 import About from "./React-Router-DOM/pages/About.jsx";
 import Contact from "./React-Router-DOM/pages/Contact.jsx";
+import Project from "./React-Router-DOM/pages/Project.jsx";
 
 const App = () => {
   return (
@@ -41,14 +43,15 @@ const App = () => {
       {/* <First /> */}
       {/* <img src={img} alt="Description" /> */}
       {/* <First /> */}
-      {/* <Navbar /> */}
       {/* <Eventshandling /> */}
+      <NavbarRouter />
       {/* {<EventsProps />} Mono Lisa */}
 
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/project" element={<Project />} />
       </Routes>
     </div>
   );

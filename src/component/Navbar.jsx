@@ -1,10 +1,9 @@
-import React from 'react'
+import React from "react";
 
 function Navbar() {
   return (
     <nav className="bg-blue-600 text-white shadow-md">
       <div className="max-w-6xl mx-auto flex items-center justify-between px-6 py-4">
-        
         {/* Logo */}
         <h1 className="text-2xl font-bold">MyApp</h1>
 
@@ -36,7 +35,6 @@ function Navbar() {
         <button className="bg-white text-blue-600 px-4 py-2 rounded-lg hover:bg-gray-200">
           Login
         </button>
-
       </div>
     </nav>
   );
