@@ -8,6 +8,7 @@ const NavbarRouter = () => {
       <Link to="/about">About</Link>
       <Link to="/contact">Contact</Link>
       <Link to="/project">Project</Link>
+      <Link to="/NotFound">404 Page</Link>
     </div>
   );
 };
