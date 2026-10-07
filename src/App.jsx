@@ -19,6 +19,7 @@ import Home from "./React-Router-DOM/pages/Home.jsx";
 import About from "./React-Router-DOM/pages/About.jsx";
 import Contact from "./React-Router-DOM/pages/Contact.jsx";
 import Project from "./React-Router-DOM/pages/Project.jsx";
+import NoteFound from "./React-Router-DOM/pages/NotFound.jsx";
 
 const App = () => {
   return (
@@ -52,6 +53,8 @@ const App = () => {
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/project" element={<Project />} />
+
+        <Route path="*" element={<NoteFound />} />
       </Routes>
     </div>
   );
